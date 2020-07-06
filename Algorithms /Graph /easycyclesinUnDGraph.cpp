@@ -50,7 +50,7 @@ void dfs( int u , int prev ){
   }
 
   if(vis[u] == 2 )
-    vis[u] = 1 ; 
+    vis[u] = 1 , s.pop(); 
 
 }
 int main(){
